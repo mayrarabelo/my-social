@@ -15,9 +15,9 @@ function App() {
   const [perfil, setPerfil] = useState<any>();
 
   const findPerfil = (id: string) => {
-    let person = db.filter(item => item._id == id)
+    let person = db.filter(item => item._id === id)
     if(!person.length){
-      person = perfil.friends.filter((item: { _id: string; }) => item._id == id)
+      person = perfil.friends.filter((item: { _id: string; }) => item._id === id)
     }
     setPerfil(person[0]);
   }
@@ -28,7 +28,7 @@ function App() {
       <main className='flex flex-wrap-wrap'>
         { !perfil && 
           db.filter((val) => {
-            if( searchName == '') {
+            if( searchName === '') {
               return val
             } else if (val.name.toLowerCase().includes(searchName.toLowerCase())) {
               return val

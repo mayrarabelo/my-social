@@ -37,7 +37,7 @@ function Card({key, id, name, picture, age, eyeColor, company, email, phone, fin
   return (
     <Box key={key}>
       <Image >
-        <img src={picture} />
+        <img src={picture} alt={name}/>
       </Image>
       <a href="javascript:;" onClick={() => findPerfil(id)}>name: {name}</a>
       <p>age: {age}</p>
