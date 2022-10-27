@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.2728424mm"
+   height="5.2728424mm"
+   viewBox="0 0 5.2728423 5.2728425"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="square.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.659564"
+     inkscape:cx="11.894363"
+     inkscape:cy="12.760458"
+     inkscape:window-width="1366"
+     inkscape:window-height="694"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient792">
+      <stop
+         style="stop-color:#eeeeee;stop-opacity:1;"
+         offset="0"
+         id="stop790" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient792"
+       id="linearGradient794"
+       x1="12.808627"
+       y1="22.497313"
+       x2="30.623915"
+       y2="22.497313"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.07806856,0,0,0.07806856,7.5431985,9.6908305)" />
+  </defs>
+  <g
+     id="layer1"
+     transform="matrix(4.0774819,0,0,4.0774819,-35.033627,-44.039181)"
+     style="stroke-width:0.0245249;stroke-dasharray:none">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:url(#linearGradient794);stroke-width:0.0245249;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect788"
+       width="1.2686365"
+       height="1.2686365"
+       x="8.6042385"
+       y="10.812845" />
+  </g>
+</svg>

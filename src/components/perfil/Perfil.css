@@ -1,0 +1,28 @@
+.interna p {
+    font-size: 1.3em;
+}
+
+.perfil {
+    flex-direction: row;
+}
+
+.friends {
+    justify-content: left;
+}
+
+
+@media (max-width:480px) {
+    .perfil {
+        flex-direction: column;
+    }
+
+    .dados {
+        padding: 0;
+        margin-top: 16px
+    }
+
+    .friends {
+        justify-content: center !important;
+    }
+
+}

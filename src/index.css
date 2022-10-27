@@ -7,10 +7,16 @@ body {
     color: #444444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(./img/square.svg) repeat;
 }
 
 p {
   margin: 0px;
+  word-wrap: break-word;
+}
+
+p, a {
+  font-size: 1.2em;
 }
 
 code {
@@ -18,6 +24,34 @@ code {
     monospace;
 }
 
-.container {
-  padding: 20px;
+.flex {
+  display: flex;
+}
+
+.flex-wrap-wrap {
+  flex-wrap: wrap;
+}
+
+a:link, a:visited {
+  color: #444444;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.p-l-20 {
+  padding-left: 20px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+@media (max-width:480px)  {
+  main {
+    justify-content: center;
+  }
 }
